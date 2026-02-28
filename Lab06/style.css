@@ -1,0 +1,44 @@
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #ccc;
+            margin: 0;
+        }
+
+        .calculator {
+            border: 2px solid #888;
+            background: #fff;
+            padding: 10px;
+            width: 280px;
+        }
+
+        #display {
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            padding: 5px 8px;
+            box-sizing: border-box;
+            border: 2px solid #888;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 4px;
+        }
+
+        button {
+            padding: 14px 0;
+            font-size: 16px;
+            background: #e0e0e0;
+            border: 1px solid #aaa;
+            cursor: pointer;
+        }
+
+        button:active {
+            background: #bbb;
+        }

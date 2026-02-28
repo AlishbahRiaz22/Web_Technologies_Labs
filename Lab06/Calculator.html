@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly>
+
+    <div class="btn-grid">
+        <!-- Row 1 -->
+        <button onclick="memClear()">MC</button>
+        <button onclick="appendNum('0')">0</button>
+        <button onclick="appendNum('1')">1</button>
+        <button onclick="appendNum('2')">2</button>
+        <button onclick="appendOp('+')">+</button>
+
+        <!-- Row 2 -->
+        <button onclick="memStore()">MS</button>
+        <button onclick="appendNum('3')">3</button>
+        <button onclick="appendNum('4')">4</button>
+        <button onclick="appendNum('5')">5</button>
+        <button onclick="appendOp('-')">-</button>
+
+        <!-- Row 3 -->
+        <button onclick="memRecall()">MR</button>
+        <button onclick="appendNum('6')">6</button>
+        <button onclick="appendNum('7')">7</button>
+        <button onclick="appendNum('8')">8</button>
+        <button onclick="appendOp('*')">x</button>
+
+        <!-- Row 4 -->
+        <button onclick="memAdd()">M+</button>
+        <button onclick="appendNum('9')">9</button>
+        <button onclick="toggleSign()">±</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="appendOp('/')">/</button>
+
+        <!-- Row 5 -->
+        <button onclick="reciprocal()">1/x</button>
+        <button onclick="appendDot()">.</button>
+        <button onclick="square()">x2</button>
+        <button onclick="squareRoot()">√</button>
+        <button onclick="clearAll()">C</button>
+    </div>
+</div>
+
+
+
+</body>
+</html>

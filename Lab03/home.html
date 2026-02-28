@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<!-- Specify a default language -->
+
+<html lang="en">
+
+<head>
+    <!-- Define the character set  -->
+    <meta charset="utf-8">
+    <!-- Set the title-->
+
+    <title>Portfolio - alishbah Riaz</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 
+        Despite the addition of new
+        elements that justifably
+        captures a lot of DIV's territory,
+        you can still use them.
+     
+        The best practice is to use
+        DIVs when there is no other
+        more semantically appropiate
+        element that suits your
+        purpoe.
+    -->
+
+        <header>
+            <hgroup>
+                <h1>Alishbah Riaz</h1>
+                <h2>Computer Science Student</h2>
+            </hgroup>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+
+                <!-- Link some other pages here -->
+                <!--
+            Suggestion: All text inside a HTML element should be lowercase to make it easier to read.
+        -->
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="personalskills.html">Personal Skills</a></li>
+            </ul>
+        </nav>
+
+        <div class="main">
+
+            <section>
+                <hgroup>
+                    <h3>Personal Information</h3>
+                </hgroup>
+
+                <div align="center">
+                    <figure>
+                        <img src="Sample image 1.jpg" width="80px" height="80px" alt="image_older" />
+                        <figcaption>Fig1. - This is me from many years ago</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="Sample image 2.jpg"  width="80px" height="80px" alt="image" />
+                        <figcaption>Fig1. - This is me, a couple of months ago</figcaption>
+                    </figure>
+
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p>UG student, BSCS. Department of Computing, NUST-SEECS.</p>
+                        </li>
+                        <li>
+                            <p>Artist</p>
+                        </li>
+                    </ul>
+                </div>
+                <aside>
+                    <p>I am currently pursuing my undergraduate degree in Computer Science. Through my coursework and practice, I am developing a strong foundation in programming concepts and web technologies. I am interested in improving my problem-solving skills and building practical projects. <a href="https://github.com/AlishbahRiaz22">Github profile</a>
+                </aside>
+            </section>
+            <hr/>
+            <section>
+                <hgroup>
+                    <h3>Education</h3>
+                </hgroup>
+
+                <ol>
+                    <li>
+                        <h3>Matric</h3>
+                        <p>APS, Fort Road,Rawalpindi</p>
+                    </li>
+                    <li>
+                        <h3>ICS- Intermediate in Computer Science</h3>
+                        <p>APS fort Road, Rawalpindi</p>
+                    </li>
+                    <li>
+                        <h3>BSCS (ongoing)</h3>
+                        <p>NUST-SEECS, Pakistan</p>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <hgroup>
+                    <h3>Who am I?</h3>
+                </hgroup>
+                <p>I'm 20 years old, passionate student with multiple interests.</p>
+                <p>I appreciate different art forms</p>
+                <p>I love reading about human behaviors and psychology.</p>
+                <p>I enjoy coding and building projects.</p>
+            </section>
+
+            <hr/>
+
+            <article>
+                <!-- Add an SVG -->
+                <!-- You can skip this part. -->
+                <svg width="200" height="200" viewBox="-100 -100 200 200">
+  <defs>
+    <path
+      id="branch"
+      d="
+        M 0 0 L 0 -90
+        M 0 -20 L 20 -34
+        M 0 -20 L -20 -34
+        M 0 -40 L 20 -54
+        M 0 -40 L -20 -54
+        M 0 -60 L 20 -74
+        M 0 -60 L -20 -74"
+      stroke="#E5C39C"
+      stroke-width="5"
+    />
+  </defs>
+
+  <use href="#branch" />
+  <use href="#branch" transform="rotate(60)" />
+  <use href="#branch" transform="rotate(120)" />
+  <use href="#branch" transform="rotate(180)" />
+  <use href="#branch" transform="rotate(240)" />
+  <use href="#branch" transform="rotate(300)" />
+</svg>
+            </article>
+            <hr/>
+
+            <footer>What is the <time datetime="2025-02-02">date</time> today?</footer>
+<!-- The time tag is purely for semantic purposes only and is not shown on the front end. -->
+        </div>
+
+        <footer>Copyright @alishbahriaz</footer>
+
+    </div>
+</body>
+
+</html>
