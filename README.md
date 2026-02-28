@@ -41,16 +41,6 @@ Each folder contains the HTML, CSS, and JS files for that particular lab or proj
 
 ---
 
-## 🔍 Preview / Screenshots
-
-> Add screenshots here to showcase your work. Example:
-
-![Example Layout](preview.png)
-
-> Tip: Screenshots make your repo look much more professional and visually appealing.
-
----
-
 ## 🎯 Purpose
 
 This repository demonstrates my hands-on learning in front-end web development. It serves as a portfolio of practical exercises and small projects, highlighting:
@@ -61,12 +51,6 @@ This repository demonstrates my hands-on learning in front-end web development. 
 
 ---
 
-## 📌 Author
 
-**Aloshbah**  
-BS Computer Science Student  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://www.linkedin.com/in/yourusername)
-
----
 
 
