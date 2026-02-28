@@ -30,12 +30,6 @@ This repository contains my lab work and practice exercises for the **Web Techno
 
 ---
 
-## 📂 Repository Structure
-Lab1,2/
-Lab03/
-Lab05/
-...
-
 
 Each folder contains the HTML, CSS, and JS files for that particular lab or project.
 
@@ -50,6 +44,7 @@ This repository demonstrates my hands-on learning in front-end web development. 
 - Organized approach to coding and documentation
 
 ---
+
 
 
 
