@@ -1,0 +1,245 @@
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #8e6c88;
+    color: white;
+    
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    opacity: 0.8;
+   
+}
+
+/* hero section */
+.hero {
+    text-align: left;
+    padding: 80px 5%;
+    min-height: 50vh;
+    background: url("hero_image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero h1 {
+    margin-bottom: 15px;
+    color: #e3d9e3;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: #f3e4ef;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #b57ba6;
+    color: white;
+    text-shadow: #6a4e6d 2px 2px 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #9c6390;
+}
+
+/* about section */
+.about {
+    padding: 60px 5%;
+    text-align: center;
+}
+.about-header {
+  background-color: #af9bb5;
+    margin-bottom: 40px;
+    color: #2b1c2c;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.about-header:hover {
+    transform: scale(1.05); 
+}
+
+.about-header h2 {
+    margin-bottom: 20px;
+    color: #524158;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+/* grid layout mobile first */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* info boxes */
+.info-box {
+    background-color: #f3e4ef;
+    padding: 25px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+.info-box h3 {
+    margin-bottom: 15px;
+    color: #49364b;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info-box:hover {
+    transform: scale(1.05);
+}
+
+/* footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8e6c88;
+    color: white;
+}
+
+/* medium screens */
+@media (min-width: 768px) {
+    .about-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* large screens */
+@media (min-width: 1024px) {
+    .about-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .hero {
+        text-align: center;
+        padding: 60px 5%;
+        min-height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+}
+
+
+/* contact section */
+.contact {
+    padding: 60px 5%;
+    text-align: center;
+}
+.contact-container :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.contact h1 {
+    margin-bottom: 10px;
+    color: #6a4e6d;
+}
+
+.contact p {
+    margin-bottom: 40px;
+}
+
+/* contact layout grid */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/* contact info box */
+.contact-info {
+    background-color: #f3e4ef;
+    padding: 25px;
+    border-radius: 8px;
+  
+}
+.contact-info h3 {
+    margin-bottom: 15px;
+    color: #6a4e6d;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+
+/* contact form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #87577a;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #9c6390;
+}
+
+/* responsive layout */
+@media (min-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
